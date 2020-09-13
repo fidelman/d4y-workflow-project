@@ -1,0 +1,46 @@
+<!-- inspired by @Priyanshu -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Apple Products</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+
+  <body>
+    <div class="banner">
+      <div class="main-cart"></div>
+
+      <div class="nav">
+        <button class="cart-button">
+          <i class="fas fa-shopping-cart" style="font-size: 2rem;"></i>
+        </button>
+        <span class="total-qty">0</span>
+      </div>
+      <div class="cover side-nav-cover"></div>
+      <div class="cover purchase-cover"></div>
+      <div class="cart">
+        <div class="side-nav">
+          <button class="close-cart-button">
+            <i class="fas fa-times"></i>
+          </button>
+          <h2>Cart</h2>
+          <div class="cart-items"></div>
+          <div class="final">
+            <strong>Total: Kč <span class="total">0</span>.00/-</strong>
+            <div class="action">
+              <button class="btn clear">
+                Clear Cart <i class="fas fa-trash" style="color: #bb342f;"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./scripts.js"></script>
+  </body>
+</html>
