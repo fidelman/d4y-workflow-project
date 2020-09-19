@@ -34,7 +34,6 @@ button {
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.75);
-  backdrop-filter: blur(5px);
   display: none;
 }
 .box-area {
@@ -155,7 +154,6 @@ button {
 }
 .main-cart {
   position: absolute;
-  -webkit-box-pack: space-evenly;
   justify-content: space-evenly;
   flex-wrap: wrap;
   width: 90%;
@@ -243,7 +241,6 @@ button {
 .details .wrapper p {
   font-size: 0.9rem;
   padding: 5px 0;
-  font-weight: light;
 }
 .card .details .purchase {
   width: 100%;
@@ -359,7 +356,6 @@ button {
   margin-bottom: 1rem;
 }
 .side-nav .final .action {
-  -webkit-box-pack: space-evenly;
   justify-content: space-evenly;
 }
 .side-nav .final .action .btn {
@@ -374,7 +370,6 @@ button {
   box-shadow: inset 20em 0 0 0 white;
 }
 .qty-change {
-  -webkit-box-pack: space-evenly;
   justify-content: space-evenly;
   -webkit-box-align: baseline;
   align-items: baseline;
@@ -498,7 +493,6 @@ button {
     width: 576px;
     height: 4rem;
     background: rgba(255, 255, 255, 0.5);
-    backdrop-filter: blur(5px);
     filter: invert(1);
   }
   .main-cart {
